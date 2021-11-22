@@ -1,0 +1,493 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+main {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+main .left header section {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .left header section aside a {
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-block;
+}
+main .left header section nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  padding: 0px;
+}
+main .left header section nav ul li {
+  display: inline-block;
+}
+main .left header section nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+main .right {
+  background-color: #8ea698;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+}
+main .right section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+main .right header button {
+  width: 157px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: 0px;
+  float: right;
+  margin: 30px 15% 30px 0px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+main .right header button:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5 ease;
+}
+main .left .links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .left .links h1 {
+  font-size: 85px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+main .left .links p {
+  font-size: 28px;
+  color: black;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+main .left .links .contact {
+  list-style: none;
+  padding: 0px;
+}
+
+main .left .links .contact li {
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+main .left .links .link {
+  padding: 0px;
+  margin-bottom: 60px;
+}
+main .left .links .link li {
+  display: inline-block;
+}
+main .left .links .link li a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+main .left .links .cv_link {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+main .left .links .cv_link_icon {
+  padding-left: 20px;
+}
+main .left .about {
+  margin-top: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .left .about article {
+  width: 400px;
+}
+main .left .about article .top {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+main .left .about article .top .line {
+  border-bottom: 1px solid black;
+  margin-top: 22px;
+  height: 1px;
+}
+main .left .about article .top h1 {
+  font-size: 22px;
+  width: 119px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+main .left .about article p {
+  font-size: 15px;
+  color: black;
+  width: 376px;
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 4px;
+  font-weight: 400;
+  line-height: 2em;
+}
+main .left .skills {
+  width: 100%;
+  height: 622px;
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+}
+main .left .skills .expertise {
+  width: 425px;
+  height: 622px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .left .skills .expertise .center {
+  width: 425px;
+  height: 622px;
+}
+main .left .skills .expertise .div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .left .skills .expertise .div .line {
+  border-bottom: 1px solid black;
+  margin-top: 22px;
+  height: 1px;
+}
+main .left .skills .expertise .div h2 {
+  font-size: 22px;
+  width: 372px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+main .left .skills .expertise ul {
+  width: 443px;
+  height: 396px;
+  padding: 0px;
+}
+main .left .skills .expertise ul li {
+  line-height: 2.2em;
+}
+main .left .skills .expertise ul li p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2em;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+main .left .work {
+  width: 100%;
+  height: 622px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+main .left .work .experience {
+  width: 425px;
+  height: 622px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .left .work .experience .secondcenter {
+  width: 425px;
+  height: 622px;
+}
+main .left .work .experience .secondcenter .workexperience {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .left .work .experience .secondcenter .workexperience .line {
+  border-bottom: 1px solid black;
+  margin-top: 22px;
+  height: 1px;
+}
+main .left .work .experience .secondcenter .workexperience h2 {
+  font-size: 22px;
+  width: 340px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 10px 0px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+main .left .work .experience .secondcenter .first {
+  font-family: "Montserrat", sans-serif;
+}
+main .left .work .experience .secondcenter .first .one {
+  line-height: 1.8em;
+  font-size: 15px;
+  font-weight: 700;
+}
+main .left .work .experience .secondcenter .first .two {
+  line-height: 1.8em;
+  font-size: 15px;
+  font-weight: 400;
+}
+main .left .work .experience .secondcenter .second {
+  font-family: "Montserrat", sans-serif;
+}
+main .left .work .experience .secondcenter .second .one {
+  line-height: 1.8em;
+  font-size: 15px;
+  font-weight: 700;
+}
+main .left .work .experience .secondcenter .second .two {
+  line-height: 1.8em;
+  font-size: 15px;
+  font-weight: 400;
+}
+main .left .work .experience .secondcenter .third {
+  font-family: "Montserrat", sans-serif;
+}
+main .left .work .experience .secondcenter .third .one {
+  line-height: 1.8em;
+  font-size: 15px;
+  font-weight: 700;
+}
+main .left .work .experience .secondcenter .third .two {
+  line-height: 1.8em;
+  font-size: 15px;
+  font-weight: 400;
+}
+main .left .education {
+  width: 100%;
+  height: 300px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+main .left .education .afterfirst {
+  width: 425px;
+  height: 622px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .left .education .afterfirst .thirdcenter {
+  width: 425px;
+  height: 622px;
+}
+main .left .education .afterfirst .thirdcenter .thirddiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .left .education .afterfirst .thirdcenter .thirddiv .line {
+  border-bottom: 1px solid black;
+  margin-top: 22px;
+  height: 1px;
+}
+main .left .education .afterfirst .thirdcenter .thirddiv h2 {
+  font-size: 22px;
+  width: 205px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+main .left .education .afterfirst .thirdcenter .first {
+  font-family: "Montserrat", sans-serif;
+}
+main .left .education .afterfirst .thirdcenter .first .one {
+  line-height: 1.8em;
+  font-size: 15px;
+  font-weight: 700;
+}
+main .left .education .afterfirst .thirdcenter .first .two {
+  line-height: 1.8em;
+  font-size: 15px;
+  font-weight: 400;
+}
+main .left .keys {
+  width: 100%;
+  height: 400px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+main .left .keys .achivements {
+  width: 425px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+main .left .keys .achivements .forthcenter {
+  width: 425px;
+  height: 400px;
+}
+main .left .keys .achivements .forthdiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .left .keys .achivements .forthcenter .forthdiv .line {
+  border-bottom: 1px solid black;
+  margin-top: 22px;
+  height: 1px;
+}
+main .left .keys .achivements .forthcenter .forthdiv h2 {
+  font-size: 22px;
+  width: 372px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+main .left .keys .achivements .forthcenter ul {
+  width: 380px;
+  height: 396px;
+  padding: 0px;
+}
+main .left .keys .achivements .forthcenter ul li {
+  line-height: 2.2em;
+}
+main .left .keys .achivements .forthcenter ul li p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2em;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+main .left .contact2 {
+  width: 100%;
+  height: 610px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+main .left .contact2 .lastarticle {
+  width: 425px;
+  height: 610px;
+  display: flex;
+  justify-content: center;
+}
+main .left .contact2 .lastarticle .fifthcenter {
+  width: 425px;
+  height: 610px;
+}
+main .left .contact2 .lastarticle .fifthcenter .fifthdiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+}
+main .left .contact2 .lastarticle .fifthcenter .fifthdiv .line {
+  border-bottom: 1px solid black;
+  margin-top: 22px;
+  height: 1px;
+}
+main .left .contact2 .lastarticle .fifthcenter .fifthdiv h2 {
+  font-size: 22px;
+  width: 170px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+main .left .contact2 .lastarticle .fifthcenter .prelastdiv {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25px;
+}
+main .left .contact2 .lastarticle .fifthcenter .prelastdiv p {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  line-height: 1.2em;
+}
+main .left .contact2 .lastarticle .fifthcenter .prelastdiv p span,
+main .left .contact2 .lastarticle .fifthcenter .prelastdiv p a {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  line-height: 1.2em;
+  margin-left: 5px;
+}
+main .left .contact2 .lastarticle .fifthcenter .prelastdiv p a {
+  color: black;
+  text-decoration: none;
+}
+main .left .contact2 .lastarticle .fifthcenter .prefooterlinks {
+  font-family: "Montserrat", sans-serif;
+}
+main .left .contact2 .lastarticle .fifthcenter .prefooterlinks p {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  line-height: 1.2em;
+}
+main .left .contact2 .lastarticle .fifthcenter .prefooterlinks p a {
+  color: black;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  width: 425px;
+  height: 60px;
+}
+footer div p {
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+footer div p a {
+  color: black;
+  margin-left: 3px;
+}
